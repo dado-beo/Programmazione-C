@@ -2,7 +2,7 @@
 
 #define PIGRECO 3.141592
 
-int main() {
+int main(void) {
     float raggio, area;
     
     printf("Inserisci il raggio del cerchio: ");

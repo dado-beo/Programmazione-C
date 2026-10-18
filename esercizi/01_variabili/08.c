@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char c;
     char precedente, successivo;
     printf("Inserisci un carattere: ");

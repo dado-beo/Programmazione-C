@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float x, y, h; // basi e altezza del trapezio
     float area;
 
