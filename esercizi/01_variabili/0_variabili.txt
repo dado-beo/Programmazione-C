@@ -1,0 +1,83 @@
+1.
+ Scrivere un programma C che esegua le seguenti operazioni:
+- definisca due variabili intere x e y;
+- assegni 3 e 2 a x e y rispettivamente;
+- assegni alla variabile intera somma il risultato della somma di x e y;
+- visualizzi il risultato della somma. 
+
+
+
+2.
+Scrivere un programma C che esegua le seguenti operazioni:
+- definisca due variabili float x e y;
+- assegni 3.25 e 2.5 a x e y rispettivamente;
+- assegni alla variabile float somma il risultato della somma di x e y;
+- visualizzi il risultato della somma. 
+
+
+
+3. 
+Scrivere un programma C che esegua le seguenti operazioni:
+- chieda all'utente di inserire i lati (x, y) del rettangolo;
+- calcoli l'area del rettangolo di lati x e y;
+- stampi a video le misure dei lati e l'area del rettangolo in modo che l'output abbia la forma seguente:
+Lato1 = (valore di x)
+Lato2 = (valore di y)
+Area = (area calcolata)
+
+
+
+4.
+Scrivere un programma C che esegua le seguenti operazioni:
+- chiude all'utente di inserire le basi (x, y) e l'altezza del trapezio (h);
+- calcoli l'area del trapezio di basi x e y e altezza h;
+- stampi a video le misure delle basi e dell'altezza e l'area del trapezio in modo che l'output abbia la forma seguente:
+Base1 = (valore di x)
+Base2 = (valore di y)
+Altezza = (valore di h)
+Area = (area calcolata)
+
+
+
+5.
+Scrivere un programma C che 
+- chiede all'utente di inserire il raggio della circonferenza;
+- calcola il valore della circonferenza usando la costante PI;
+- visualizza il valore della circonferenza. 
+
+
+
+6.
+Scrivere un programma C che 
+- chiede all'utente di inserire il raggio del cerchio;
+- calcola l'area del cerchio usando la costante PI;
+- visualizza il valore dell'area.
+
+
+
+7.
+Scrivere un programma che permetta di inserire 4 numeri interi e ne stampi la somma, la media, il prodotto.
+La media può avere la parte decimale (per esempio, 1.333333).
+
+
+
+8.
+Scrivere un programma che
+- chiede all'utente di inserire un carattere (c);
+- visualizza il carattere precedente a c;
+- visualizza il carattere successivo a c. 
+Esempio		c: H	--->	G I
+
+
+
+9. 
+Scrivere un programma che 
+- chiede all'utente di inserire un valore intero (n);
+- chiede all'utente di inserire un carattere (c);
+- visualizza l'n-esimo carattere successivo a c. 
+Esempio		n: 3    c: A    --->    D 
+
+
+
+10. 
+Scrivere un programma che visualizza la quantità di byte allocati per i tipi int, float, char.
