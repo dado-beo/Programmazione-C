@@ -1,0 +1,113 @@
+1) Scrivere un programma che prenda in input la base e l'altezza di un triangolo.
+   Se entrambi sono maggiori di 0, allora
+     calcola e visualizza l'area del triangolo 
+   altrimenti 
+     visualizza un messaggio di errore. 
+
+
+
+2) Scrivere un programma che legge da tastiera un mese espresso come numero (da 1 a 12), e restituisce il numero di giorni (28, 30, 31) in quel mese oppure il messaggio "mese sconosciuto". 
+Utilizzare gli operatori logici. 
+
+Utilizzare sia la selezione annidata (if) sia la selezione multipla (switch).  
+
+
+
+3) Scrivere un programma che esegua le seguenti operazioni:
+   - legga da tastiera tre variabili x, y e h;
+   Se x, y e h sono tutte maggiori di 0, allora
+     - calcoli l'area del trapezio di basi x e y e altezza h;
+     - stampi a video le misure delle basi e dell'altezza e l'area del trapezio.
+     - in modo che l'output abbia la forma seguente:
+       Base1 = (valore di x)
+       Base2 = (valore di y)
+       Altezza = (valore di h)
+       Area = (area calcolata)
+    Altrimenti
+     - visualizzi un messaggio di errore
+
+
+
+4) L'utente inserisce un anno ed il calcolatore verifica se e' bisestile. Un anno e' bisestile se e' divisibile per 4 ma non per 100, oppure se e' divisibile per 400.
+
+Esempi di esecuzione
+--------------------
+
+anno --> 1997
+L'anno 1997 non e' bisestile
+
+anno --> 1996
+L'anno 1996 e' bisestile
+
+anno --> 1900
+L'anno 1900  non e' bisestile
+
+anno --> 2000
+L'anno 2000  e' bisestile
+
+anno --> 2012
+L'anno 2012 e' bisestile
+
+
+
+5) Il piano cartesiano e' suddiviso in quattro quadranti
+numerati come segue:
+
+            | Y
+            |
+            |
+     II     |     I 
+            | 
+----------------------------------  X
+          0 |
+   III      |     IV
+            |
+            |
+
+Scrivere un programma che dato in input un punto di coordinate (x,y) visualizza se il punto si trova nell'origine, sull'asse x, sull'asse y, nel quadrante I, nel quadrante II, nel quadrante III o nel quadrante IV. 
+
+
+
+6) Scrivere un programma che legge tre valori e stabilisce se possono essere le lunghezze dei lati di un triangolo. 
+   Tre valori rappresentano i lati di un triangolo se:
+    - i lati sono positivi
+    - ogni lato e' minore della somma degli altri due
+   In caso affermativo, trova la tipologia del triangolo. Si deve determinare se il triangolo e':
+    - equilatero
+    - isoscele
+    - isoscele rettangolo
+    - scaleno
+    - scaleno rettangolo.
+
+
+
+7) Scrivere un programma che legge un numero intero. 
+   Poi visualizza "il numero e' composto da 1 cifra", "il numero e' composto da 2 cifre", "il numero e'
+   composto da 3 cifre" o "il numero e' composto da piu' di 3 cifre".
+
+
+
+8) Scrivere un programma che legge un valore intero e visualizza se il valore e'
+	- positivo e pari
+	- positivo e dispari
+	- nullo
+	- negativo e pari
+	- negativo e dispari. 
+
+
+
+9) Scrivere un programma che legge un orario (ore, minuti e secondi in tre variabili intere distinte). 
+   Poi controlla se l'orario e' nel formato corretto:
+	- ore comprese tra 0 e 23
+	- minuti compresi tra 0 e 59
+	- secondi compresi tra 0 e 59. 
+   Infine visualizza "l'orario ha il formato corretto" oppure "l'orario non ha il formato corretto". 
+
+
+
+10) Scrivere un programma che legge una data (giorno, mese e anno in tre variabili intere distinte). 
+   Poi controlla se la data e' nel formato corretto:
+	- anno composto da esattamente 4 cifre
+	- mese compreso tra 1 e 12
+	- giorno compreso tra 1 e 31, tra 1 e 30, tra 1 e 28 o tra 1 e 29, in base al mese e all'anno.  	
+   Infine visualizza "la data ha il formato corretto" oppure "la data non ha il formato corretto".
