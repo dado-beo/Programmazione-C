@@ -1,0 +1,120 @@
+﻿1) Scrivere un programma che richieda in input una sequenza di n numeri interi e ne individui il massimo.
+
+
+
+2) Scrivere un programma che richieda in input una sequenza di n numeri interi e ne individui i primi due massimi.
+
+
+
+3) Realizzare un programma che calcoli la somma dei primi n numeri naturali, dove n e' un intero acquisito da tastiera.
+
+
+
+4) Stampare tutti i numeri pari da 0 a 100.
+
+
+
+5) Realizzare un programma che calcoli il prodotto di due interi x ed y acquisiti da tastiera, usando solo la somma. 
+
+
+
+6) Realizzare un programma che calcoli la potenza di x elevato alla n (con x ed n interi acquisiti da tastiera) usando solo il prodotto.
+
+
+
+7) Scrivere un programma che legge n da tastiera e ne calcola il fattoriale (n!). 
+   Esempio: n=4   fatt(n)=1*2*3*4=24
+            n=1   fatt(n)=1
+	    n=0   fatt(n)=1
+   Se n<0 visualizza un messaggio di errore. 
+
+
+
+8) Scrivere un programma che legge da tastiera il valore di n,
+   legge da tastiera una sequenza di n interi, 
+   e calcola i seguenti valori:
+
+- il minimo numero
+
+- il massimo numero
+
+- la somma n1 + n3 + n5 + ... (numeri in posizione dispari)
+
+- la somma n2 + n4 + n6 + ... (numeri in posizione pari)
+
+- la somma totale di tutti i numeri letti
+
+Esempi di esecuzione
+--------------------
+
+Se la sequenza in input e'
+
+10 2 20 5 6 1 40 1 30 
+
+deve essere stampato
+
+min = 1
+max = 40
+somma dispari = 106
+somma pari = 9
+somma totale = 115
+
+Se la sequenza in input e'
+
+4 -10 -30 50 100 25 -2 29 60 
+
+deve essere stampato
+
+min = -30
+max = 100
+somma dispari = 132
+somma pari = 94
+somma totale = 226
+
+
+
+9) Scrivere un programma che legge da tastiera un intero n maggiore di 0 e
+    stampa n seguito da tutti i suoi divisori, come negli esempi.
+    Se n e' primo, stampa il messaggio "n e' un numero primo".
+
+Esempi di esecuzione
+--------------------
+
+Se n = 48 deve essere stampato
+
+48: 1 2 3 4 6 8 12 16 24 48
+
+Se n = 1764 deve essere stampato
+
+1764: 1 2 3 4 6 7 9 12 14 18 21 28 36 42 49 63 84 98 126 147 196 252 294 441 588 882 1764
+
+Se n = 1777 deve essere stampato
+
+1777: 1 1777
+1777 e' un numero primo
+
+
+
+10) Scrivere un programma che legge da tastiera un intero n maggiore di 0.
+    e stampa i numeri interi da 0 a n, quattro per riga.
+
+    Per incolonnare i numeri si puo' usare:
+    - il carattere TAB \t
+      printf("%d\t", x);
+
+    - Assumendo che gli interi non abbiano piu' di sei cifre, 
+      usare la specifica di formato "%6d", che stampa un intero usando 6 caratteri:
+      printf("%6d", x);
+      Se x e' uguale a 1234, x viene preceduto da due spazi, in modo da stampare complessivamente sei caratteri.
+
+
+Esempio di esecuzione
+--------------------
+
+Se n e' uguale a 14 deve essere stampato
+
+     0     1     2     3
+     4     5     6     7
+     8     9    10    11
+    12    13    14  
+
