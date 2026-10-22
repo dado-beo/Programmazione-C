@@ -1,0 +1,147 @@
+1) Scrivere un programma che richieda in input una sequenza di interi conclusa da 0 e ne calcoli la somma.
+
+
+
+2) Scrivere un programma che legge n da tastiera e ne calcola il fattoriale (n!). 
+   Esempio: n=4   fatt(n)=1*2*3*4=24
+            n=1   fatt(n)=1
+	    n=0   fatt(n)=1
+   Se n<0 visualizza un messaggio di errore e ripete la richiesta dell'input finche' questo non e' corretto. 
+
+
+
+3) Scrivere un programma che chiede di inserire le basi e l'altezza di un trapezio. 
+   Calcola e visualizza l'area del trapezio. 
+
+   I tre valori di input devono essere tutti positivi. 
+   In caso contrario visualizza un messaggio di errore e ripete la richiesta dei valori fino a quando questi
+   non sono corretti.
+
+
+
+4) Scrivere un programma che calcoli il MCD  di due interi acquisiti da tastiera, notando che:
+	se a>b>0 MCD(a,b)=MCD(b, a-b).
+	In pratica,
+		1. se a=b MCD=a;
+		2. se a>b pongo a=a-b e itero;
+		3. se a<b pongo b=b-a e itero.
+	Realizzare l'iterazione con il costrutto while. 
+
+
+
+5) Scrivere un programma che legge da tastiera due interi (righe e colonne)
+    e stampa una tabella delle dimensioni specificate e contenenti i numeri 
+    da 0 in avanti, fino al riempimento della tabella.
+
+    I valori devono essere ordinati per riga. 
+
+Esempi di esecuzione
+--------------------
+
+Se righe = 4 e colonne = 8 deve essere stampato
+
+     0     1     2     3     4     5     6     7
+     8     9    10    11    12    13    14    15
+    16    17    18    19    20    21    22    23
+    24    25    26    27    28    29    30    31
+
+Se righe = 12 e colonne = 15 deve essere stampato
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+    15    16    17    18    19    20    21    22    23    24    25    26    27    28    29
+    30    31    32    33    34    35    36    37    38    39    40    41    42    43    44
+    45    46    47    48    49    50    51    52    53    54    55    56    57    58    59
+    60    61    62    63    64    65    66    67    68    69    70    71    72    73    74
+    75    76    77    78    79    80    81    82    83    84    85    86    87    88    89
+    90    91    92    93    94    95    96    97    98    99   100   101   102   103   104
+   105   106   107   108   109   110   111   112   113   114   115   116   117   118   119
+   120   121   122   123   124   125   126   127   128   129   130   131   132   133   134
+   135   136   137   138   139   140   141   142   143   144   145   146   147   148   149
+   150   151   152   153   154   155   156   157   158   159   160   161   162   163   164
+   165   166   167   168   169   170   171   172   173   174   175   176   177   178   179
+
+
+
+6) Scrivere un programma che legge da tastiera due interi (righe e colonne)
+    e stampa una tabella delle dimensioni specificate e contenenti i numeri 
+    da 0 in avanti, fino al riempimento della tabella.
+
+    I valori devono essere ordinati per colonna.
+    
+   
+Esempio di esecuzione
+--------------------
+
+Se righe = 4 e colonne = 8 deve essere stampato
+
+     0     4     8    12    16    20    24    28
+     1     5     9    13    17    21    25    29
+     2     6    10    14    18    22    26    30
+     3     7    11    15    19    23    27    31
+
+
+
+7) Scrivere un programma che stampi la tavola pitagorica per valori da 1 a 10.
+
+
+
+8) Chiesti in input i valori di r e di c, stampare a video un rettangolo (o quadrato se r==c) di r righe e c colonne di caratteri X.
+
+Esempio con r=3 c=5:
+
+		XXXXX
+		XXXXX
+		XXXXX
+
+
+
+9) Realizzare un programma che stampi a video un rettangolo la cui cornice sia composta da asterischi * e il suo contenuto da  caratteri ‘A’, come nell’esempio:
+
+********************
+*AAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAA*
+********************
+
+Il numero di colonne e di righe deve essere chiesto in input all’utente a tempo di esecuzione, entrambi devono essere maggiori di 1.
+
+Esempi di esecuzione
+--------------------
+
+Se colonne (base) = 7 e righe (altezza) = 4 deve essere stampato
+
+*******
+*AAAAA*
+*AAAAA*
+*******
+
+Se colonne (base) = 35 e righe (altezza) = 8 deve essere stampato
+
+***********************************
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
+*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
+***********************************
+
+
+
+10) Scrivere un programma che legge un intero n maggiore di 1 e genera una tabella di n righe e n colonne in cui:
+    - la diagonale e' composta da 0
+    - la parte sopra la diagonale e' composta X
+    - la parte sotto la diagonale e' composta da Y
+
+    Esempio:    n=4
+
+    0 X X X
+    Y 0 X X
+    Y Y 0 X
+    Y Y Y 0
+
+
+
+11) Scrivere un programma che chiede all'utente di inserire un valore n. 
+Poi visualizza tutti i numeri primi compresi tra 1 e n, disponendoli 10 per riga al massimo. 
+(un numero x è primo se ha uno o due divisori. I divisori di x sono compresi tra 1 e x) 
