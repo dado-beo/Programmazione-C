@@ -1,0 +1,180 @@
+1.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso tre valori;
+	- calcola e restituisce il valore massimo;
+- la funzione main che 
+	- chiede all'utente di "inserire tre valori";
+	- invoca la funzione per calcolare il massimo;
+	- visualizza "il massimo tra ... e ... e' ...". 
+
+
+
+2.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso base ed esponente (per semplificare, assumiamo che l'esponente sia 
+	  intero con segno);
+	- calcola e restituisce la potenza;
+- la funzione main che 
+	- chiede all'utente di "inserire base ed esponente";
+	- invoca la funzione per calcolare la potenza; 
+	- visualizza "la potenza e' ...". 
+
+
+
+3.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso due valori interi;
+	- calcola il massimo comune divisore (MCD) seguendo l'algoritmo indicato nella serie 5, esercizio 4;
+	- restituisce il MCD;
+- la funzione main che 
+	- chiede all'utente di "inserire due valori";
+	- invoca la funzione per calcolare il MCD;
+	- visualizza "il MCD di ... e ... e' ...".
+
+
+
+4.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso un valore intero;
+	- conta le cifre che compongono il valore dividendo ripetutamente il valore per 10;
+	- restituisce la quantità di cifre;
+- la funzione main che 
+	- chiede all'utente di "inserire un valore";
+	- invoca la funzione per contare le cifre;
+	- visualizza "il valore ... e' composto da ... cifre".
+
+
+
+5. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso ora, minuti e secondi di un orario;
+	- controlla se l'ora è compresa tra 0 e 23, i minuti tra 0 e 59, i secondi tra 0 e 59;
+	- restiuisce 1 se l'orario è corretto oppure 0 se non è corretto.
+- la funzione main che 
+	- chiede all'utente di "inserire ora, minuti, secondi";
+	- invoca la funzione per controllare il formato dell'orario;
+	- visualizza "l'orario ... e' nel formato corretto" oppure "l'orario ... non e' nel formato corretto". 
+
+
+
+6.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso un numero intero (x);
+	- ne calcola la quantità di divisori (i divisori sono compresi tra 1 e x);
+	- restituisce 1 se il numero è primo (1 o 2 divisori) oppure 0 se non è primo;
+- la funzione main che 
+	- chiede all'utente di "inserire un numero";
+	- invoca la funzione per stabilire se il numero è primo;
+	- visualizza "il numero ... e' primo" oppure "il numero ... non e' primo". 
+
+
+
+7.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- non riceve niente in ingresso;
+	- chiede all'utente di "inserire l'argomento del fattoriale"; 
+	- se il numero e' negativo visualizza "ERRORE: l'argomento non deve essere negativo" e ripete
+	  ciclicamente la richiesta;
+	- restituisce l'argomento del fattoriale;
+- una funzione che 
+	- riceve in ingresso un valore intero (x);
+	- calcola e restituisce il fattoriale di x (x! = 1*2*3*...*x);
+- la funzione main che 
+	- invoca la funzione per inserire l'argomento;
+	- invoca la funzione per il calcolo del fattoriale;
+	- visualizza "il fattoriale di ... vale ...". 
+
+
+
+8.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- non riceve niente in ingresso;
+	- chiede all'utente di "inserire un valore";
+	- se il valore non è positivo visualizza "ERRORE: il valore deve essere positivo" e ripete 
+	  ciclicamente la richiesta;
+	- restituisce il valore;
+- una funzione che 
+	- non riceve niente in ingresso;
+	- chiede all'utente di "inserire C per il cerchio o Q per il quadrato";
+	- se il carattere è diverso da C e Q visualizza "ERRORE: il carattere deve essere C o Q" e ripete
+	  ciclicamente la richiesta;
+	- restituisce il carattere inserito;
+- una funzione che
+	- riceve in ingresso il raggio di un cerchio;
+	- calcola e restituisce l’area del cerchio;
+- una funzione che
+	- riceve in ingresso il lato di un quadrato;
+	- calcola e restituisce l'area del quadrato;
+- la funzione main che 
+	- richiama la funzione per inserire il valore iniziale;
+	- richiama la funzione per inserire il tipo di figura;
+	- se si tratta di cerchio
+		- richiama la funzione per calcolare l'area del cerchio;
+		- visualizza "l'area del cerchio di raggio ... e' ...";
+	- se si tratta di quadrato
+		- richiama la funzione per calcolare l'area del quadrato;
+		- visualizza "l'area del quadrato di lato ... e' ...".
+
+
+
+9.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- non riceve niente in ingresso;
+	- chiede all'utente di "inserire un mese espresso come numero tra 1 e 12";
+	- se il mese non è corretto visualizza "ERRORE: il mese deve essere compreso tra 1 e 12" e ripete
+	  ciclicamente la richiesta;
+	- restituisce il mese inserito;
+- una funzione che 
+	- non riceve niente in ingresso;
+	- chiede all'utente di "inserire un anno composto da 4 cifre";
+	- se l'anno non è corretto visualizza "ERRORE: l'anno deve essere composto da 4 cifre" e ripete
+	  ciclicamente la richiesta;
+	- restituisce l'anno inserito;
+- una funzione che 
+	- riceve in ingresso un anno;
+	- restituisce 1 se l'anno è bisestile oppure 0 se non è bisestile;
+- una funzione che 
+	- riceve in ingresso un mese e un anno;
+	- calcola il numero di giorni in quel mese e in quell'anno;
+	- restituisce il numero di giorni;
+- la funzione main che 
+	- invoca la funzione per inserire il mese;
+	- invoca la funzione per inserire l'anno;
+	- invoca la funzione per calcolare il numero di giorni; 
+	- visualizza "il mese ... dell'anno ... e' composto da ... giorni".
+
+
+
+10.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso tre valori;
+	- stabilisce se possono essere i lati di un triangolo (ogni valore è positivo e minore della somma
+	  degli altri due);
+	- restituisce 1 se sono i lati di un triangolo oppure 0 se non sono i lati di un triangolo;
+- una funzione che 
+	- riceve in ingresso i lati di un triangolo;
+	- restituisce 0 se il triangolo è isoscele equilatero, 1 se è isoscele non equilatero, 2 se è scaleno;
+- una funzione che 
+	- riceve in ingresso i lati di un triangolo;
+	- restituisce 1 se il triangolo è rettangolo oppure 0 se non è rettangolo;
+- la funzione main che 
+	- chiede all'utente di "inserire tre valori";
+	- invoca la funzione per stabilire se sono i lati di un triangolo;
+	- visualizza "... sono i lati di un triangolo" oppure "... non sono i lati di un triangolo";
+	- se si tratta di triangolo 
+		- invoca la funzione per stabilire il tipo di triangolo;
+		- visualizza "isoscele equilatero", "isoscele non equilatero" o "scaleno";
+		- se si tratta di isoscele non equilatero o scaleno
+			- invoca la funzione per stabilire se il triangolo è rettangolo;
+			- visualizza "rettangolo" oppure "non rettangolo". 
+
