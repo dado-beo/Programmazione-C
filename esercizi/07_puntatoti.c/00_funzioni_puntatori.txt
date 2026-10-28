@@ -1,0 +1,161 @@
+1. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un valore intero;
+	- lo incrementa di 1;
+	- non restituisce niente;
+- la funzione main che
+	- chiede all'utente di inserire un valore intero;
+	- invoca la funzione per l'incremento;
+	- visualizza il valore aggiornato. 
+
+
+
+2. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso due variabili;
+	- scambia i valori delle variabili;
+	- non restituisce niente;
+- la funzione main che
+	- chiede all'utente di inserire i valori di due variabili;
+	- visualizza i valori delle variabili;
+	- invoca la funzione per lo scambio dei valori;
+	- visualizza i valori aggiornati delle variabili.
+
+
+
+3.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso due variabili;
+	- scambia i valori delle variabili;
+	- non restituisce niente; 
+- una funzione che 
+	- riceve in ingresso tre variabili (a, b, c);
+	- dati i valori delle tre variabili, invocando la funzione di scambio, inserisce in a il valore minimo,
+	  in b il valore di mezzo, in c il valore massimo;
+	  ESEMPIO: a=4, b=1 e c=2; ---> a=1, b=2, c=4
+	- non restituisce niente;
+- la funzione main che
+	- chiede all'utente di inserire i valori di tre variabili;
+	- visualizza i valori delle variabili;
+	- invoca la funzione per ordinare i valori in modo crescente;
+	- visualizza i valori aggiornati delle variabili. 
+
+	
+
+4.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso due variabili;
+	- scambia i valori delle variabili;
+	- non restituisce niente;
+- una funzione che 
+	- riceve in ingresso tre variabili (a, b, c);
+	- dati i valori delle tre variabili, invocando la funzione di scambio, inserisce in a il valore massimo,
+	  in b il valore di mezzo, in c il valore minimo;
+	  ESEMPIO: a=0, b=2 e c=1; ---> a=2, b=1, c=0
+	- non restituisce niente;
+- la funzione main che
+	- chiede all'utente di inserire i valori di tre variabili;
+	- visualizza i valori delle variabili;
+	- invoca la funzione per ordinare i valori in modo decrescente;
+	- visualizza i valori aggiornati delle variabili. 
+
+
+
+5. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso tre valori e due variabili per il minimo e il massimo;
+	- calcola minimo e massimo dei tre valori;
+	- non restituisce niente;
+- la funzione main che
+	- chiede all'utente di inserire tre valori;
+	- invoca la funzione per il calcolo di minimo e massimo;
+	- visualizza "il minimo vale ... il massimo vale ...". 
+
+
+
+6. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso tre valori e tre variabili per somma, prodotto, media;
+	- calcola somma, prodotto e media dei tre valori;
+	- non restituisce niente. 
+- la funzione main che
+	- chiede all'utente di inserire tre valori;
+	- invoca la funzione per il calcolo di somma, prodotto, media;
+	- visualizza "la somma vale ... il prodotto vale ... la media vale ...".
+
+
+
+7.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- non riceve niente ingresso;
+	- chiede all'utente di inserire il raggio di un cerchio;
+	- se il raggio non è positivo visualizza "ERRORE: il raggio non è positivo" e ripete la richiesta
+	  finché il valore non è corretto;
+	- restituisce il raggio;
+- una funzione che 
+	- riceve in ingresso il raggio e due variabili per la circonferenza e l'area del cerchio;
+	- calcola la circonferenza e l'area del cerchio;
+	- non restituisce niente;
+- la funzione main che
+	- invoca la funzione per il caricamento del raggio;
+	- invoca la funzione per il calcolo di circonferenza e area;
+	- visualizza "la circonferenza vale ... l'area vale ...".
+
+
+
+8. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso le variabili per i lati di un rettangolo;
+	- chiede all'utente di inserire i valori dei lati;
+	- se i lati non sono entrambi positivi visualizza "ERRORE: lati non positivi" e ripete la richiesta 
+	  finché i valori non sono corretti;
+	- non restituisce niente;
+- una funzione che
+	- riceve ingresso i lati del rettangolo e due variabili per perimetro e area;
+	- calcola perimetro e area del rettangolo;
+	- non restituisce niente;
+- la funzione main che
+	- invoca la funzione per caricare i lati;
+	- invoca la funzione per il calcolo di perimetro e area;
+	- visualizza "il perimetro vale ... l'area vale ...". 
+
+
+
+9. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso tre variabili per ora, minuti, secondi;
+	- chiede all'utente di inserire ora (tra 0 e 23), minuti (tra 0 e 59), secondi (tra 0 e 59);
+	- se l'orario non è nel formato corretto visualizza "ERRORE: orario non corretto" e ripete la 
+	  richiesta finché il formato non è corretto;
+	- non restituisce niente;
+- la funzione main che
+	- invoca la funzione per l'inserimento dell'orario;
+	- visualizza l'orario inserito (ESEMPIO: 08:45:00).
+
+
+
+10.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che 
+	- riceve in ingresso un mese e un anno;
+	- restituisce il numero di giorni in quel mese e in quell'anno (28, 29, 30 o 31);
+- una funzione che
+	- riceve in ingresso tre variabili per giorno, mese, anno;
+	- chiede all'utente di inserire giorno (tra 1 e 28, 29, 30 o 31 in base al mese e all'anno), 
+	  mese (tra 1 e 12), anno (di 4 cifre);
+	- invocando la prima funzione controlla se il formato della data è corretto;
+	- in caso contrario visualizza "ERRORE: data non corretta" e ripete la richiesta finché il formato
+	  non è corretto;
+	- non restituisce niente;
+- la funzione main che
+	- invoca la funzione per l'inserimento dell'orario;
+	- visualizza la data inserita (ESEMPIO: 30/09/2025).
