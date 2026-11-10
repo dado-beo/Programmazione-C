@@ -1,0 +1,191 @@
+1. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- visualizza indici e valori del vettore;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per visualizzare il vettore.
+
+
+
+2.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- visualizza indici e valori del vettore in ordine decrescente di indice;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per visualizzare il vettore.
+
+
+
+3. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- visualizza i valori con indice pari (0, 2, ...);
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- visualizza i valori con indice dispari pari (1, 3, ...);
+	- non restituisce niente;
+- la funzione main che
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per visualizzare i valori con indici pari;
+	- invoca la funzione per visualizzare i valori con indici dispari.
+
+
+
+4.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore di interi;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore di interi;
+	- visualizza i valori con valore pari;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore di interi;
+	- visualizza i valori con valore dispari;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara il vettore di interi;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per visualizzare i valori pari;
+	- invoca la funzione per visualizzare i valori dispari.
+
+
+
+5.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- calcola e restituisce il valore massimo nel vettore;
+- la funzione main che
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per il calcolo del massimo;
+	- visualizza "il massimo e' ...". 
+
+
+
+6.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore e due parametri (p1, p2);
+	- calcola e memorizza in p1 il minimo del vettore;
+	- calcola e memorizza in p2 il massimo del vettore;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per il calcolo di minimo e massimo;
+	- visualizza "il minimo e' ... il massimo e' ...". 
+
+
+
+7. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che 
+	- riceve in ingresso un vettore;
+	- calcola e restituisce la somma dei valori nel vettore;
+- una funzione che 
+	- riceve in ingresso un vettore;
+	- calcola e restituisce il prodotto dei valori nel vettore;
+- una funzione che 
+	- riceve in ingresso un vettore;
+	- calcola e restituisce la media dei valori nel vettore;
+- la funzione main che 
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per il calcolo della somma;
+	- invoca la funzione per il calcolo della prodotto;
+	- invoca la funzione per il calcolo della media;
+	- visualizza "la somma e' ... il prodotto e' ... la media e' ...". 
+
+
+
+8. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore;
+	- chiede all'utente di inserire i valori del vettore;
+	- non restituisce niente;
+- una funzione che 
+	- riceve in ingresso un vettore, un intero (x) e due parametri (p1, p2);
+	- calcola e memorizza in p1 la media dei valori minori di x presenti nel vettore;
+	- calcola e memorizza in p2 la media dei valori maggiori o uguali a x presenti nel vettore;
+	- non restituisce niente;
+- la funzione main che 
+	- dichiara il vettore;
+	- invoca la funzione per caricare il vettore;
+	- chiede all'utente di inserire un valore;
+	- invoca la funzione per il calcolo delle medie;
+	- visualizza "la media dei valori < di ... e' ... la media dei valori >= di ... e' ...". 
+
+
+
+9.  
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore di interi e un intero (x);
+	- carica nel vettore i multipli di x fino a riempire il vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- visualizza indici e valori del vettore;
+	- non restituisce niente;
+- la funzione main che 
+	- dichiara il vettore di interi;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per visualizzare il vettore. 
+
+
+
+10.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso un vettore di interi;
+	- carica nel vettore i numeri positivi e dispari fino a riempire il vettore;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso un vettore;
+	- visualizza indici e valori del vettore;
+	- non restituisce niente;
+- la funzione main che 
+	- dichiara il vettore di interi;
+	- invoca la funzione per caricare il vettore;
+	- invoca la funzione per visualizzare il vettore. 
+
