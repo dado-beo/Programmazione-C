@@ -1,0 +1,225 @@
+1. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;	
+	- carica nella matrice dei numeri pseudo-casuali composti da una o due cifre;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza indici e valori della matrice;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice e l'indice di una riga;
+	- restituisce -1 se l'indice non è compatibile con le dimensioni della matrice;
+	- altrimenti calcola e restituisce la somma dei valori sulla riga con tale indice;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice;
+	- chiede all'utente di inserire l'indice di una riga;
+	- invoca la funzione per il calcolo della somma della riga;
+	- visualizza "la somma della riga ... e' ..." oppure "ERRORE: l'indice ... non e' compatibile". 
+
+
+
+2. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;	
+	- carica nella matrice dei numeri pseudo-casuali composti da esattamente due cifre;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza indici e valori della matrice;
+	- non restituisce niente;
+- una funzione che
+    - non riceve niente in ingresso;
+	- chiede all'utente di inserire l'indice di una colonna;
+	- se l'indice non è compatibile con le dimensioni della matrice, visualizza "ERRORE: l'indice ... 
+	  non e' compatibile" e ripete ciclicamente la richiesta;
+	- restituisce l'indice della colonna;
+- una funzione che 
+	- riceve in ingresso una matrice e l'indice di una colonna;
+	- calcola e restituisce il massimo dei valori su quella colonna;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice;
+	- invoca la funzione per inserire l'indice di colonna;
+	- invoca la funzione per il massimo della colonna;
+	- visualizza "il massimo della colona ... e' ...". 
+
+
+
+
+3.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;
+	- chiede all'utente di inserire i valori della prima riga di una matrice;
+	- carica automaticamente le altre righe in modo che i valori su una riga siano i successivi 
+	  dei valori sulla riga precedente;
+		ESEMPIO:
+		3	2	5
+		4	3	6
+		5	4	7
+	- non restiuisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza indici e valori della matrice;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice.
+
+
+
+4.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;
+	- chiede all'utente di inserire i valori della prima colonna di una matrice;
+	- carica automaticamente le altre colonne in modo che i valori su una colonna siano il doppio 
+	  dei valori sulla colonna precedente;
+		ESEMPIO:
+		3	6	12
+		2	4	8
+		5	10	20
+	- non restiuisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza indici e valori della matrice;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice.
+
+ 
+
+5.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;
+	- carica nella matrice dei numeri pseudo-casuali composti da una sola cifra;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza indici e valori della matrice;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice, un valore (x) e due parametri (p1, p2);
+	- cerca x visitando la matrice riga per riga;
+	- se x è assente memorizza -1 in p1 e p2;
+	- se x è presente, memorizza in p1 e p2 gli indici della riga e della colonna della prima 
+	  occorrenza di x;
+	- non restituisce niente;
+- la funzione main che 
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice;
+	- chiede all'utente di inserire un valore x da cercare;
+	- visualizza "... e' assente" oppure "... e' presente sulla riga ... colonna ...".
+
+
+
+6.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;
+	- carica nella matrice dei numeri pseudo-casuali composti da una sola cifra;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza indici e valori della matrice;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice, un valore (x) e due parametri (p1, p2);
+	- cerca x visitando la matrice colonna per colonna;
+	- se x è assente memorizza -1 in p1 e p2;
+	- se x e' presente, memorizza in p1 e p2 gli indici della riga e della colonna dell'ultima 
+	  occorrenza di x;
+	- non restituisce niente;
+- la funzione main che 
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice;
+	- chiede all'utente di inserire un valore x da cercare;
+	- visualizza "... e' assente" oppure "... e' presente sulla riga ... colonna ...".
+
+
+
+7. 
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;	
+	- chiede all'utente di inserire i valori della matrice da tastiera;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- restituisce 1 se i valori della matrice sono tutti uguali;
+	- altrimenti restituisce 0;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per controllare se i valori sono uguali;
+	- visualizza "i valori sono tutti uguali" oppure "i valori non sono tutti uguali". 
+
+
+
+8.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;	
+	- chiede all'utente di inserire i valori della matrice da tastiera;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- restituisce 1 se i valori della matrice ordinati in modo crescente, riga per riga;
+	- altrimenti restituisce 0;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per controllare se i valori sono ordinati;
+	- visualizza "i valori sono ordinati" oppure "i valori non sono ordinati".
+
+
+
+9.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;	
+	- carica nella matrice la tavola pitagorica (multipli di 1, 2, 3, ..., 10);
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza i valori della matrice;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice.
+
+
+
+10.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una matrice;	
+	- carica nella matrice 1, 2, 3, 4 e i successivi numeri naturali, ordinati per colonna; 
+		ESEMPIO:
+		1 5 9  13
+		2 6 10 14
+		3 7 11 15
+		4 8 12 16
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una matrice;
+	- visualizza i valori della matrice;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara la matrice;
+	- invoca la funzione per caricare la matrice;
+	- invoca la funzione per visualizzare la matrice.
+
