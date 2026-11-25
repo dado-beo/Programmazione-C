@@ -25,7 +25,7 @@ Il repository è organizzato per argomenti progressivi seguendo le slide del cor
 Programmazione-C/
 ├── .gitignore                    # Regole di esclusione per file binari ed eseguibili
 ├── README.md                     # Documentazione generale del progetto
-├── bin/                          # Cartella generata automaticamente contenente i binari (ignorata da Git)
+├── bin/                          # Cartella generata automaticamente contenente i file eseguiti (ignorata da Git)
 │
 ├── 00_introduzione.c             # Struttura base del C, main(), printf, sequenze di escape e GCC
 ├── 01_variabili.c                # Tipi di dato, operatore sizeof, scanf, gestione buffer e costanti
