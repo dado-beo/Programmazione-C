@@ -1,0 +1,176 @@
+1.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- se la dimensione del vettore di caratteri lo consente, aggiunge un punto all'inizio e 
+	  alla fine della parola;
+	  ESEMPIO: ciao ---> .ciao.
+	- restituisce 1 se i punti sono stati aggiunti, 0 altrimenti;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- invoca la funzione che aggiunge i punti alla stringa;
+	- visualizza "la stringa aggiornata e' ..." oppure "la stringa non e' stata aggiornata".
+
+
+
+2.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- se la stringa contiene almeno due caratteri, rimuove il primo e l'ultimo carattere della stringa;
+	  ESEMPIO: ciao ---> ia
+	- restituisce 1 se i caratteri sono stati rimossi, 0 altrimenti;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- invoca la funzione che rimuove i caratteri dalla stringa;
+	- visualizza "la stringa aggiornata e' ..." oppure "la stringa e' vuota" oppure "la stringa non e' stata
+	  aggiornata".
+
+
+
+3.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa e un carattere (c);
+	- se la stringa ha lunghezza pari e la dimensione del vettore lo consente, aggiunge c al centro della
+	  stringa;
+	  ESEMPIO con c='X':    ciao    --->    ciXao
+	- restituisce 1 se il carattere centrale e' stato inserito, 0 altrimenti;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- chiede all'utente di inserire il carattere da aggiungere;
+	- invoca la funzione che aggiunge il carattere al centro della stringa;
+	- visualizza "la stringa aggiornata e' ..." oppure "la stringa non e' stata aggiornata".
+
+
+
+4.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- se la stringa ha lunghezza dispari rimuove il carattere al centro della stringa;
+	  ESEMPIO: ciao! ---> cio!
+	- restituisce 1 se il carattere centrale e' stato rimosso, 0 altrimenti;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- invoca la funzione che rimuove il carattere centrale della stringa;
+	- visualizza "la stringa aggiornata e' ..." oppure "la stringa e' vuota" oppure "la stringa non e' stata
+	  aggiornata".
+
+
+
+5.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa per contenere un nome di persona;
+	- chiede all'utente di inserire un nome di persona composto da
+		- almeno 3 caratteri; (strlen)
+		- la lettera iniziale maiuscola; (isupper)
+		- le altre lettere tutte minuscole; (islower)
+	- in caso contrario visualizza "ERRORE: il nome non e' corretto" e ripete la richiesta ciclicamente;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- invoca la funzione per caricare il nome;
+	- visualizza "il nome e' ...". 
+
+
+
+6.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa per contenere la password;
+	- chiede all'utente di inserire una password che deve contenere
+		- almeno 8 caratteri (strlen)
+		- almeno una lettera maiuscola (isupper)
+		- almeno una lettera minuscola (islower)
+		- almeno una cifra (isdigit)
+	- se la password non rispetta tutti i requisiti visualizza "ERRORE: la password non e' corretta" 
+	  e ripete ciclicamente la richiesta;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- invoca la funzione per caricare la password;
+	- visualizza "password inserita con successo". 
+
+
+
+7.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso tre parametri interi (ora, minuti, secondi);
+	- chiede all'utente di inserire ora (tra 0 e 23), minuti (tra 0 e 59), secondi (tra 0 e 59);
+	- se i valori non sono corretti visualizza "ERRORE: l'orario non ha il formato corretto" e ripete
+	  ciclicamente la richiesta;
+	- non restituisce niente;
+- una funzione che 
+	- riceve in ingresso una stringa e tre parametri (ora, minuti, secondi);
+	- inserisce ora, minuti e secondi nella stringa, ciascuno composto da esattamente due cifre, separati
+	  da due punti (strcat o sprintf); 
+	  ESEMPIO:   7 25 9   --->   07:25:09
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- invoca la funzione per leggere ora, minuti, secondi;
+	- invoca la funzione per inserire ora, minuti, secondi nella stringa;
+	- visualizza "l'orario e' ...". 
+
+
+
+8.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa e un carattere (c);
+	- cerca c nella stringa (strchr, strrchr);
+	- restituisce 0 se c non è presente nella stringa;
+	- restituisce 1 se c è presente esattamente una volta nella stringa;
+	- restituisce 2 se c è presente almeno due volte nella stringa;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- chiede all'utente di inserire un carattere da cercare;
+	- invoca la funzione per la ricerca del carattere nella stringa;
+	- visualizza "... non e' presente in ..." oppure "... e' presenta una sola volta in ..." oppure 
+	  "... e' presente almeno due volte in ...". 
+
+
+
+9.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- rimuove dalla stringa tutti i caratteri che non sono lettere dell'alfabeto;
+	- restituisce 1 se la stringa risultante e' vuota;
+	- altrimenti restituisce 0;
+- una funzione che
+	- riceve in ingresso una stringa;
+	- converte a maiuscolo (toupper) il primo carattere;
+	- converte a minuscolo (tolower) tutti gli altri caratteri;
+	- non restituisce niente;
+- la funzione main che
+    - dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- invoca la funzione che rimuove i caratteri non alfabetici;
+	- se la stringa non e' vuota invoca la funzione che converte i caratteri;
+	- visualizza "la stringa aggiornata e' ..." oppure "la stringa e' vuota". 
+
+	
+	
+10.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+    - riceve in ingresso un intero (x);
+    - converte x in una stringa (sprintf);
+    - se la dimensione del vettore lo consente, raddoppia tutte le cifre nella stringa;
+      ESEMPI:    3015 ---> 33001155		-3015 ---> -33001155
+    - converte la stringa in intero (sscanf);
+    - restituisce l'intero risultante oppure 0 se non è stato modificato;
+- la funzione main che
+ 	- chiede all'utente di inserire un numero intero;
+	- invoca la funzione che raddoppia le cifre nel numero;
+    - visualizza "il numero aggiornato e' ..." oppure "il numero non e' stato aggiornato". 
+

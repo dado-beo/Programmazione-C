@@ -1,0 +1,209 @@
+1.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- per ogni lettera minuscola dell’alfabeto, visualizza il numero di volte che la lettera
+	  compare nella stringa;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una stringa;
+	- per ogni lettera maiuscola dell’alfabeto, visualizza il numero di volte che la lettera
+	  compare nella stringa;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una stringa;
+	- per ogni cifra, visualizza il numero di volte che la cifra compare nella stringa;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- invoca la funzione per il conteggio delle lettere minuscole;
+	- invoca la funzione per il conteggio delle lettere maiuscole;
+	- invoca la funzione per il conteggio delle cifre.
+
+
+
+2.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa e due parametri (p1, p2);
+	- memorizza in p1 la quantità di vocali minuscole nella stringa;
+	- memorizza in p2 la quantità di vocali maiuscole nella stringa;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una stringa e due parametri (p1, p2);
+	- memorizza in p1 la quantità di consonanti minuscole nella stringa;
+	- memorizza in p2 la quantità di consonanti maiuscole nella stringa;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- chiede all'utente di inserire una stringa;
+	- invoca la funzione per il conteggio delle lettere vocali;
+	- visualizza "... vocali minuscole e ... vocali maiuscole";
+	- invoca la funzione per il conteggio delle lettere consonanti;
+	- visualizza "... consonanti minuscole e ... consonanti maiuscole".
+
+
+
+3.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- chiede all'utente di inserire una stringa;
+	- controlla che la stringa sia composta solo da lettere dell'alfabeto;
+	- in caso contrario visualizza "ERRORE: la stringa contiene caratteri non alfabetici" e ripete
+	  ciclicamente la richiesta;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una stringa e un intero (k);
+	- sostituisce ogni lettera nella stringa con la lettera che si trova k posizioni dopo nell’alfabeto, 
+	  in modo circolare;
+	  ESEMPIO con k = 3:    ’a’ diventa ’d’    ’m’ diventa ’p’    ’z’ diventa ’c’
+                                ’A’ diventa ’D’    ’M’ diventa ’P’    ’Z’ diventa ’C’
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una stringa e un intero (k);
+	- sostituisce ogni lettera nella stringa con la lettera che si trova k posizioni prima nell’alfabeto, 
+	  in modo circolare;
+	  ESEMPIO con k = 3:    ’d’ diventa ’a’    ’p’ diventa ’m’    ’c’ diventa ’z’
+                                ’D’ diventa ’A’    ’P’ diventa ’M’    ’C’ diventa ’Z’
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- invoca la funzione per caricare la stringa;
+	- chiede all'utente un valore intero per "cifrare" la stringa;
+	- invoca la funzione per "cifrare" la stringa;
+	- visualizza la stringa;
+	- invoca la funzione per "decifrare" la stringa;
+	- visualizza di nuovo la stringa.
+
+
+
+4.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa per contenere un nome di persona;
+	- chiede all'utente di inserire un nome di persona composto da
+		- almeno 3 caratteri;
+		- una lettera iniziale maiuscola;
+		- le altre lettere minuscole;
+	- in caso contrario visualizza "ERRORE: il nome non e' corretto" e ripete la richiesta ciclicamente;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- invoca la funzione per caricare il nome;
+	- visualizza "il nome e' ...". 
+
+
+
+5.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa per contenere la password;
+	- chiede all'utente di inserire una password che deve contenere
+		- almeno 8 caratteri
+		- almeno una lettera maiuscola
+		- almeno una lettera minuscola
+		- almeno una cifra
+		- almeno un simbolo di punteggiatura (. , ; : ? !)
+		- almeno un carattere speciale (@ # * $ %)
+	- se la password non rispetta tutti i requisiti visualizza "ERRORE: la password non e' corretta" 
+	  e ripete ciclicamente la richiesta;
+	- non restituisce niente;
+- una funzione che
+	- riceve in ingresso una stringa che contiene una password;
+	- chiede all'utente di confermare la password;
+	- se la password appena inserita non corrisponde a quella inserita in precedenza, visualizza 
+	  "ERRORE: la password non corrisponde" e ripete ciclicamente la richiesta;
+	- non restituisce niente;
+- la funzione main che
+	- dichiara una stringa;
+	- invoca la funzione per caricare la password;
+	- invoca la funzione per confermare la password. 
+
+
+
+6.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso tre stringhe (s1, s2, s3);
+	- copia i caratteri di s1 in s3;
+	- copia di seguito i caratteri di s2 in s3;
+	  ESEMPIO 	s1: buon	s2: giorno	--->	s3: buongiorno
+	- non restituisce niente;
+- la funzione main che
+	- dichiara tre stringhe;
+	- chiede all'utente di inserire la prima stringa;
+	- chiede all'utente di inserire la seconda stringa;
+	- invoca la funzione per copiare la prima e la seconda stringa nella terza;
+	- visualizza la terza stringa. 
+
+
+
+7.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso tre stringhe (s1, s2, s3);
+	- copia la prima metà di s1 in s2;
+	- copia la seconda metà di s1 in s3;
+	  ESEMPIO 	s1: buongiorno    --->    s2: buong	s3: iorno
+	- non restituisce niente;
+- la funzione main che
+	- dichiara tre stringhe;
+	- chiede all'utente di inserire la prima stringa;
+	- invoca la funzione per copiare la prima stringa nella seconda e terza stringa;
+	- visualizza la seconda stringa;
+	- visualizza la terza stringa. 
+
+
+
+8.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa e un carattere (c);
+	- restituisce 1 se c è presente nella stringa;
+	- restituisce 0 se c non è presente nella stringa;
+- una funzione che
+	- riceve in ingresso tre stringhe (s1, s2);
+	- copia i caratteri di s1 in s2 evitando le ripetizioni tramite la funzione di ricerca;
+	  ESEMPIO 	s1: buongiorno    s2: buongir
+	- non restituisce niente;
+- la funzione main che
+	- dichiara due stringhe;
+	- chiede all'utente di inserire la prima stringa;
+	- invoca la funzione per copiare la prima stringa nella seconda;
+	- visualizza la seconda stringa.
+
+
+
+9.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa, un carattere (c) e due parametri (p1, p2);
+	- memorizza in p1 l'indice della prima occorrenza di c nella stringa (-1 se assente);
+	- memorizza in p2 l'indice dell'ultima occorrenza di c nella stringa (-1 se assente);
+	- non restituisce niente;
+- la funzione main che
+	- dichiara la stringa;
+	- chiede all'utente di inserire la stringa;
+	- chiede all'utente di inserire un carattere;
+	- invoca la funzione per la ricerca del carattere nella stringa;
+	- visualizza "assente" oppure "unica occorrenza di ... in posizione ..." oppure "prima occorrenza
+	  di ... in posizione ... ultima occorrenza di ... in posizione ...". 
+
+
+
+10.
+Scrivere un programma organizzato nelle seguenti funzioni:
+- una funzione che
+	- riceve in ingresso una stringa;
+	- restituisce 1 se la stringa contiene due lettere identiche consecutive; 
+	  ESEMPI: tappo, gatto, massa, tassa, cooperativa, idee, zoo;
+	- restituisce 0 altrimenti;
+- la funzione main che
+	- dichiara la stringa;
+	- chiede all'utente di inserire la stringa;
+	- invoca la funzione che controlla le lettere identiche consecutive;
+	- visualizza "... contiene due lettere identiche consecutive" oppure "... non contiene due lettere
+	  identiche consecutive".
+
